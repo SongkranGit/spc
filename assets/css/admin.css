@@ -1,0 +1,220 @@
+/*Modal center of Screen*/
+.modal-dialog {
+    /*height: 80% !important;*/
+    padding-top: 10%;
+}
+
+.modal-content {
+    /*height: 100% !important;*/
+    overflow: visible;
+}
+
+.modal-body {
+    height: 80%;
+    overflow: auto;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+/*.btn-file input[type=file] {*/
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 0;*/
+/*min-width: 100%;*/
+/*min-height: 100%;*/
+/*font-size: 100px;*/
+/*text-align: right;*/
+/*filter: alpha(opacity=0);*/
+/*opacity: 0;*/
+/*background: red;*/
+/*cursor: inherit;*/
+/*display: block;*/
+/*}*/
+
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+}
+
+/*Custom Admin CSS*/
+
+.glyphicon-color-white {
+    color: white;
+}
+
+.color-white {
+    color: white;
+}
+
+.btn-custom {
+    font-size: 16px;
+    margin-right: 10px;
+    min-width: 100px;
+    /*min-height: 40px;*/
+}
+
+.navbar-custom {
+    background-color: #12CCAB;
+    margin-bottom: 0px;
+}
+
+.panel-heading.heading-create {
+    background-color: #46a648;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.panel-heading.heading-update {
+    background-color: #f3cd38;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border-color: #FF8000;
+    box-shadow: inset 0 0.1px 0.1px rgba(0, 0, 0, 0.075), 0 0 3px rgba(255, 0, 0, 0.6);
+}
+
+.form-group.required .control-label:before {
+    color: red;
+    content: "*";
+    position: absolute;
+    margin-left: -10px;
+    top: 5px;
+}
+
+.form-group.required-vertical .control-label:after {
+    color: red;
+    content: "*";
+    position: absolute;
+    top: -5px;
+}
+
+.loading-spinner{
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+/*Group menu buttons right*/
+.content-header > .group-buttons-right {
+    float: right;
+    background: transparent;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 2px;
+}
+
+.content-header > .group-buttons-right .nav >li> a:hover {
+    background-color:white;
+}
+
+.content-header > .group-buttons-right .nav >li> a {
+    border-radius: 4px;
+}
+
+.content-header > .group-buttons-right .nav >li> a > i {
+    font-size: 20px;
+}
+
+/*==============Data Table =========*/
+table.display {
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+    border-collapse: collapse;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+/*DataTable*/
+/*Hide search*/
+div.dataTables_filter label {
+    display: none;
+}
+
+td.dataTables_empty{
+    text-align: center;
+}
+
+.table tbody>tr>td {
+    vertical-align: middle;
+}
+
+.table tbody>tr>td:first-child {
+    text-align: center;
+}
+
+.table th:first-child {
+    text-align: center;
+}​
+
+.table td:first-child {
+    text-align: center;
+}​
+/*Long Text add ...*/
+/*.table {*/
+    /*table-layout:fixed;*/
+/*}*/
+
+/*.table td {*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+/*}*/
+
+/*=========== Form ===============*/
+.form-horizontal .control-label{
+   /* text-align:left !important;
+    padding-left:20px;*/
+}
+
+/*=========== Top menu ============*/
+.lang-selection{
+    min-width: 100%;
+}
+.dropdown-menu.lang-selection{
+    max-width: 20%;
+}
+.dropdown-menu.lang-selection>li>a{
+    padding: 10px 15px;
+    background-color: white;
+}
+
+.divider-vertical {
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-right: 0.5px groove #76b4ff;
+}
+
+/*Header Title Form*/
+h1 > span{
+    font-size: x-large;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    display: block; /* for use on default inline elements like span */
+    overflow: hidden;
+    margin: 9px 9px 10px 0px;
+    background-color: #e5e5e5;
+}

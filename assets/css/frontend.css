@@ -1,0 +1,115 @@
+div .div_blank{
+    height: 10px;
+}
+
+.modal-vertical-centered {
+    transform: translate(0, 50%) !important;
+    -ms-transform: translate(0, 50%) !important; /* IE 9 */
+    -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
+.span-ellipsis{
+     width: 250px;
+     overflow:hidden;
+     white-space:nowrap;
+     text-overflow: ellipsis;
+ }
+
+.modal {
+}
+
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+}
+
+/*Bootstrap table custom*/
+.table > tbody > tr > td {  vertical-align: middle;  }
+table td {  border-top: none !important;  }
+.table tr {  cursor: pointer;  }
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {  background-color: #8bc444; color: white }
+
+
+.form-group.required .control-label:before {
+    color: red;
+    content: "*";
+    margin-right: 3px;
+    top: 5px;
+}
+
+.loading-spinner{
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+#modalLogin .modal-dialog {
+    z-index: 99999;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.loading-spinner{
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+.row_generated {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row_generated > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
